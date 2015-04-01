@@ -643,6 +643,7 @@ return ($Unpacked);
 
 sub Decrypt
 {
+my $Blowfish_Key = "putyourkeyinhereyouhavetogetyourown";
 my $Blowfish_Cipher = new Crypt::Blowfish $Blowfish_Key;
 my $String = $_[0];
 
